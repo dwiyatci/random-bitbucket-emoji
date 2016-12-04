@@ -1,0 +1,29 @@
+{
+  "name": "random-bitbucket-emoji",
+  "version": "1.0.0",
+  "description": "Print out a random emoji keyword recognized by Bitbucket (https://bitbucket.org/DACOFFEY/wiki/wiki/BITBUCKET/EMOJI/Emoji)",
+  "keywords": [
+    "emoji",
+    "bitbucket",
+    "random"
+  ],
+  "homepage": "https://github.com/dwiyatci/random-bitbucket-emoji",
+  "bugs": "https://github.com/dwiyatci/random-bitbucket-emoji/issues",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "main": "index.js",
+  "bin": {
+    "rbe": "bin.js"
+  },
+  "author": "Glenn Dwiyatcita <dwiyatci@mail.com> (https://tiny.cc/dwiyatci)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwiyatci/random-bitbucket-emoji.git"
+  },
+  "scripts": {
+    "install:clean": "rimraf node_modules && yarn install",
+    "update": "updtr"
+  },
+  "dependencies": {
+    "lodash": "4.17.2"
+  }
+}
