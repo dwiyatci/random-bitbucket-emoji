@@ -20,10 +20,9 @@
     "url": "https://github.com/dwiyatci/random-bitbucket-emoji.git"
   },
   "scripts": {
-    "install:clean": "rimraf node_modules && yarn install",
-    "update": "updtr"
+    "install:clean": "yarn upgrade"
   },
   "dependencies": {
-    "lodash": "4.17.2"
+    "lodash": "4.17.4"
   }
 }
