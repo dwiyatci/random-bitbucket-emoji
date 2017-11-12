@@ -1,6 +1,6 @@
 {
   "name": "random-bitbucket-emoji",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Print out a random emoji keyword recognized by Bitbucket (https://bitbucket.org/DACOFFEY/wiki/wiki/BITBUCKET/EMOJI/Emoji)",
   "keywords": [
     "emoji",
