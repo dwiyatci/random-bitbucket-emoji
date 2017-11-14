@@ -20,7 +20,7 @@
     "url": "https://github.com/dwiyatci/random-bitbucket-emoji.git"
   },
   "scripts": {
-    "install:clean": "yarn upgrade"
+    "install:clean": "yarn upgrade || yarn install"
   },
   "dependencies": {
     "lodash": "4.17.4"
