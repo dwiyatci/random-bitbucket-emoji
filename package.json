@@ -1,7 +1,7 @@
 {
   "name": "random-bitbucket-emoji",
   "version": "1.1.0",
-  "description": "Print out a random emoji keyword recognized by Bitbucket (https://bitbucket.org/DACOFFEY/wiki/wiki/BITBUCKET/EMOJI/Emoji)",
+  "description": "Print out a random emoji keyword recognized by Bitbucket (https://bitbucket.org/gdwiy/bitbucket-emoji-list)",
   "keywords": [
     "emoji",
     "bitbucket",
@@ -20,7 +20,8 @@
     "url": "https://github.com/dwiyatci/random-bitbucket-emoji.git"
   },
   "scripts": {
-    "install:clean": "yarn upgrade || yarn install"
+    "install:clean": "yarn upgrade || yarn install",
+    "update": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
     "lodash": "4.17.4"

@@ -4,7 +4,7 @@ Print out a random emoji keywords recognized by Bitbucket.
 [![downloads](https://img.shields.io/npm/dt/random-bitbucket-emoji.svg)](http://npm-stat.com/charts.html?package=random-bitbucket-emoji)
 [![WTFPL License](https://img.shields.io/badge/license-WTFPL-red.svg)](https://raw.githubusercontent.com/dwiyatci/random-bitbucket-emoji/master/LICENSE.txt)
 
-Based on the latest [Bitbucket emoji list](https://bitbucket.org/emoji/all.json). You can see it in action here on my [Bitbucket repo wiki page](https://bitbucket.org/gdwiy/bitbucket-emoji-list) :)
+Based on the latest [Bitbucket emoji list](https://bitbucket.org/emoji/all.json). You can see it in action here on my [Bitbucket repo wiki page](https://bitbucket.org/gdwiy/bitbucket-emoji-list) and my ["Bitmoji" conventions](https://bitbucket.org/gdwiy/bitbucket-emoji-list/wiki/Bitmoji) :)
 
 ### Why?
 The Bitbucket commit messages of my daily coding at work is a bit boring without emojis, let's have some fun! :trollface:
@@ -16,7 +16,7 @@ $ npm i -g random-bitbucket-emoji
 
 ## Usage
 ```sh
-$ rbe
+$ rbe [commitType]
 ```
 
 ## Example
@@ -29,6 +29,15 @@ $ rbe
 
 $ rbe
 :snowflake:
+
+$ rbe feat
+:sparkles:
+
+$ rbe fix
+:beetle:
+
+$ rbe style
+:art:
 ```
 
 ## Author
